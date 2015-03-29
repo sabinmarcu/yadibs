@@ -1,0 +1,3 @@
+--harmony
+--recursive
+--compilers js:babel/register

@@ -1,0 +1,22 @@
+[
+  {
+    "single": "-h",
+    "double": "--help",
+    "brief": "Shows this help prompt."
+  },
+  {
+    "double": "--version",
+    "brief": "Shows the version of the runtime on screen."
+  },
+  {
+    "single": "-p",
+    "double": "--port",
+    "brief": "Sets the port on which the Express server will run.",
+    "description": "The application can run an Express server that serves the compiled sources and can be hooked to build a more complex application",
+    "usage": {
+      "-p": "80",
+      "--port": "8000"
+    }
+
+  }
+]

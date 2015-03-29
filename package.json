@@ -1,0 +1,17 @@
+{
+  "name": "yadibs",
+  "author": "Sabin Marcu <sabinmarcu@gmail.com>",
+  "version": "0.0.1",
+  "repository": "???",
+  "dependencies": {
+    "babel": "^4.7.16",
+    "cliparser": "^0.2.2",
+    "colors": "^1.0.3",
+    "open": "0.0.5"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1",
+    "traceur": "0.0.87"
+  }
+}
