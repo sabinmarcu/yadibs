@@ -2,7 +2,7 @@
   "name": "yadibs",
   "author": "Sabin Marcu <sabinmarcu@gmail.com>",
   "version": "0.0.1",
-  "repository": "???",
+  "repository": "git@github.com:sabinmarcu/yadibs.git",
   "dependencies": {
     "babel": "^4.7.16",
     "cliparser": "^0.2.2",
@@ -11,7 +11,12 @@
   },
   "devDependencies": {
     "chai": "^2.2.0",
+    "jsdoc": "^3.3.0-beta3",
     "mocha": "^2.2.1",
     "traceur": "0.0.87"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "doc": "node_modules/.bin/jsdoc"
   }
 }
